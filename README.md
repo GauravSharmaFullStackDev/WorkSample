@@ -4,7 +4,7 @@ Node version: v18.14.1,
 
 Project 
  This Project is built In  Node.js with Express and DI principles.
- 
+
 Table of Contents
     Description
     Key Features
@@ -36,6 +36,20 @@ Key Features
     Scalability and Maintainability:
 
     5. The project's design principles contribute to scalability and maintainability. As the system grows, the modular architecture allows for the addition of new features and modifications without introducing unintended side effects.
+
+Using Class-Based Components
+
+    This project follows a class-based component structure. In the src folder, you will find components organized as classes. For example:
+
+            class ExampleComponent {
+                constructor() {
+                    // constructor logic
+                }
+
+                    // other methods and properties
+            }
+
+            export default ExampleComponent;
 
 Folder Structure
 
