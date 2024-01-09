@@ -133,7 +133,7 @@ Setting Environment Variables
         MAIL_PASSWORD=mail-password
 
         SENDER_MAIL=sender-email
-        
+
         JWT_SECRET=your-jwt-secret
 
 Security Considerations
@@ -141,25 +141,31 @@ Security Considerations
 Always treat environment variables containing sensitive information with care. Avoid hardcoding these values in your code and ensure that they are kept confidential. Regularly review and rotate credentials for enhanced security.
  
 Create User API
+
     Endpoint: /api/v1/users
     Method: POST
     Description: Create a new user.
+
 Login
+
     Endpoint:/api/v1/user/login
     Method: POST
     Description: user Login.
 
 Logout User API
+
     Endpoint: /api/v1/logout
     Method: POST
     Description: Logout a user.
 
 Register Driver API
+
     Endpoint:/api/v1/driver/register
     Method: POST
     Description: Register a driver.
    
 Driver Profile API
+
     Endpoint: /api/v1/driver/profile
     Method: GET
     Description: Get driver profile.
