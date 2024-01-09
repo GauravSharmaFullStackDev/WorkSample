@@ -96,25 +96,44 @@ Configuration
     JWT_SECRET: Secret key for JSON Web Token (JWT) generation.
 
 Setting Environment Variables
+
    To configure these variables, create a file named .env in the root of your project and add the necessary values:
         PORT=3000
+
         API_PREFIX=/api
+
         API_PREFIX_USER=/user/api
+
         DEBUG=true
+
         MONGODB_USERNAME=username
+
         MONGODB_PASSWORD=password
+
         MONGODB_CLUSTER=cluster-url
+
         MONGODB_DBNAME=database-name
+
         REDIS_PORT=6379
+
         REDIS_HOST=localhost
+
         REDIS_PASSWORD=redis-password
+
         TWILIO_ACCOUNT_SID=your-account-sid
+
         TWILIO_AUTH_TOKEN=your-auth-token
+
         TWILIO_PHONE_NUMBER=your-phone-number
+
         MAIL_SERVICE=mail-service
+
         MAIL_USER=mail-user
+
         MAIL_PASSWORD=mail-password
+
         SENDER_MAIL=sender-email
+        
         JWT_SECRET=your-jwt-secret
 
 Security Considerations
