@@ -39,7 +39,9 @@ Key Features
 
 Using Class-Based Components
 
-    This project follows a class-based component structure. In the src folder, you will find components organized as classes. For example:
+    This project follows a class-based component structure. In the src folder, you will find components organized as classes.
+    
+    For example:
 
             class ExampleComponent {
                 constructor() {
