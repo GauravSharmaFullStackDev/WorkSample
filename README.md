@@ -1,4 +1,4 @@
-Express: ^your-version',
+Express: 4.18.1,
 
 Node version: v18.14.1,
 
@@ -47,8 +47,7 @@ Using Class-Based Components
                 constructor() {
                     // constructor logic
                 }
-
-                    // other methods and properties
+                // other methods and properties
             }
 
             export default ExampleComponent;
