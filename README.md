@@ -4,39 +4,33 @@
 This Django web application allows users to register for an account, receive a one-time password (OTP) via email, and verify their identity by entering the OTP. Upon successful verification, users are redirected to the dashboard. Additionally, the application integrates with Stripe to facilitate secure payments for exam purchases.
 Features
 
-    User Registration: Users can sign up for an account by providing their email address and password.
+User Registration: Users can sign up for an account by providing their email address and password.
 
-    OTP Verification: After registration, a one-time password (OTP) is sent to the user's email address. Users must enter the OTP within 1 minute to successfully verify their identity.
+OTP Verification: After registration, a one-time password (OTP) is sent to the user's email address. Users must enter the OTP within 1 minute to successfully verify their identity.
 
-    Dashboard: Upon successful OTP verification, users are redirected to the dashboard, where they can access various features and information.
+Dashboard: Upon successful OTP verification, users are redirected to the dashboard, where they can access various features and information.
 
-    Stripe Integration: The application utilizes Stripe for secure payment processing. Users can purchase exams by providing payment details through the integrated Stripe payment gateway.
+Stripe Integration: The application utilizes Stripe for secure payment processing. Users can purchase exams by providing payment details through the integrated Stripe payment gateway.
 
 Installation
 
-    Clone the repository:
-
-    bash
-
-git clone https://github.com/your-username/django-otp-registration-payment.git
-
+Clone the repository:
+        https://github.com/KontinuumKode/WorkSample.git
 Navigate to the project directory:
 
-bash
 
-cd django-otp-registration-payment
+
+    cd django-otp-registration-payment
 
 Install the required dependencies:
 
-bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Apply database migrations:
 
-bash
 
-python manage.py migrate
+    python manage.py migrate
 
 Set up your Stripe API keys:
 
@@ -44,8 +38,6 @@ Set up your Stripe API keys:
     Update the STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY in the settings.py file with your own keys.
 
 Run the development server:
-
-bash
 
     python manage.py runserver
 
