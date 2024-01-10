@@ -56,7 +56,3 @@ Usage
 **Once verified, you will be redirected to the dashboard.**
 
 **Navigate to the exam purchase section and make a payment using the integrated Stripe payment gateway.**
-
-Contributing
-
-Feel free to contribute to the project by submitting issues or pull requests.
