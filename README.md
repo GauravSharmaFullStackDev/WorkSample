@@ -1,5 +1,5 @@
-Django OTP Registration and Payment App
-Overview
+**Django OTP Registration and Payment App
+**Overview
 
 This Django web application allows users to register for an account, receive a one-time password (OTP) via email, and verify their identity by entering the OTP. Upon successful verification, users are redirected to the dashboard. Additionally, the application integrates with Stripe to facilitate secure payments for exam purchases.
 Features
