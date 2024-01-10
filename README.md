@@ -45,15 +45,15 @@ Run the development server:
 
 Usage
 
-    Register for an account by providing your email address and password.
+Register for an account by providing your email address and password.
 
-    Check your email for the OTP sent to you.
+Check your email for the OTP sent to you.
 
-    Enter the OTP within 1 minute to successfully verify your identity.
+Enter the OTP within 1 minute to successfully verify your identity.
 
-    Once verified, you will be redirected to the dashboard.
+Once verified, you will be redirected to the dashboard.
 
-    Navigate to the exam purchase section and make a payment using the integrated Stripe payment gateway.
+Navigate to the exam purchase section and make a payment using the integrated Stripe payment gateway.
 
 Contributing
 
